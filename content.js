@@ -25,6 +25,14 @@ function removeArticle() {
 			$(this).parent().remove();
 
 	});
+
+	writers = $(".ImageArticleUserName");
+
+	writers.each(function() {
+		if( $.inArray($(this).text(), blacklist ) > -1)
+			$(this).parent().parent().remove();
+
+	});
 }
 
 removeArticle();
