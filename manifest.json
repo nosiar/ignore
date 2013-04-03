@@ -1,7 +1,7 @@
 {
 	"name": "Ignore it",
-  	"description": "Ignore someone at SNUCSE community website.",
-  	"version": "1.0.0.1",
+  	"description": "Ignore annoying people on SNUCSE community website.",
+  	"version": "1.0.0.2",
   	"manifest_version": 2,
   	"icons": {
 		"16": "icon16.png",
